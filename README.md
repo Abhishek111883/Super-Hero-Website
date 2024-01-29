@@ -7,6 +7,7 @@ Welcome to the Superhero Search website! This web application allows users to se
 - [Features](#features)
 - [Usage](#usage)
 - [Installation](#installation)
+- [Live Demo](#live-demo)
 - [API Documentation](#api-documentation)
 - [Contributing](#contributing)
 - [License](#license)
@@ -54,6 +55,10 @@ To run this project locally, follow these steps:
    ```
 
 3. **Open the index.html file in your preferred web browser.**
+
+## Live Demo
+
+Check out the live demo of the Superhero Search website [here](https://super-hero-website221.netlify.app/).
 
 ## API Documentation
 
