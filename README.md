@@ -21,10 +21,10 @@ Welcome to the Superhero Search website! This web application allows users to se
 
 ## Before and After
 
-![Superhero Search Before](Screenshots/Before.png)
+![Superhero Search Before](Super-Hero/Screenshots/Before.png)
 _Before: Searching for a specific superhero_
 
-![Superhero Search After](Screenshots/After.png)
+![Superhero Search After](Super-Hero/Screenshots/After.png)
 _After: Viewing detailed information about the superhero_
 
 ## Usage
@@ -45,7 +45,6 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/superhero-search-website.git
-
    ```
 
 2. **Navigate to the project directory:**
