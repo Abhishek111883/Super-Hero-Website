@@ -21,15 +21,16 @@ Welcome to the Superhero Search website! This web application allows users to se
 
 ## Before and After
 
-![Superhero Search Before](/images/before.png)
-*Before: Searching for a specific superhero*
+![Superhero Search Before](Screenshots/Before.png)
+_Before: Searching for a specific superhero_
 
-![Superhero Search After](/images/after.png)
-*After: Viewing detailed information about the superhero*
+![Superhero Search After](Screenshots/After.png)
+_After: Viewing detailed information about the superhero_
 
 ## Usage
 
 1. **Search for a Hero**:
+
    - Enter the name of the superhero in the search bar.
    - Click the "Search" button.
 
@@ -45,11 +46,13 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/superhero-search-website.git
 
+   ```
+
 2. **Navigate to the project directory:**
 
-    ```bash
-    cd superhero-search-website
-    ```
+   ```bash
+   cd superhero-search-website
+   ```
 
 3. **Open the index.html file in your preferred web browser.**
 
