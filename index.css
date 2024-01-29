@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #000000;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    32deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(31, 21, 21, 1) 36%,
+    rgba(66, 13, 13, 1) 61%,
+    rgba(139, 34, 34, 0.8156512605042017) 100%
+  );
+  /* width: 1300px; */
+}
+.container {
+  margin-top: 10px;
+  /* margin-left: 100px; */
+  /* margin-right: 100px; */
+  /* width: 100%; */
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+.container > h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+}
+.header {
+  /* width: 100%; */
+
+  display: flex;
+  justify-content: start;
+  padding: 20px;
+  gap: 20px;
+}
+.header > input {
+  min-width: 350px;
+  /* height: 40px; */
+  padding: 0 10px;
+  border: 0.7px solid rgb(218, 218, 218);
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+/* .header > input::placeholder {
+  font-size: 14px;
+  font-weight: 600;
+} */
+.header > input:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgb(40, 143, 246);
+  color: rgb(98, 95, 95);
+  font-size: 14px;
+  font-weight: 600;
+}
+.header > button {
+  height: 40px;
+  width: 80px;
+  border: 0.7px solid rgb(218, 218, 218);
+  border-radius: 10px;
+  background-color: rgb(40, 143, 246);
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 14px;
+  transition: background-color 0.18s ease-in;
+}
+.header > button:hover {
+  cursor: pointer;
+  background-color: rgb(40, 143, 246, 0.8);
+}
+.header > .get-random {
+  height: 40px;
+  width: 140px;
+  border: 0.7px solid rgb(218, 218, 218);
+  border-radius: 10px;
+  background-color: rgb(191, 17, 17);
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.18s ease-in;
+}
+.header > .get-random:hover {
+  cursor: pointer;
+  background-color: rgb(191, 17, 17, 0.8);
+}
+.header > .spider {
+  height: 40px;
+  width: 140px;
+  border: 0.7px solid rgb(218, 218, 218);
+  border-radius: 10px;
+  background-color: rgb(180, 27, 27);
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.18s ease-in;
+  margin-left: 40px;
+}
+.header > .spider:hover {
+  cursor: pointer;
+  background-color: rgb(0, 49, 198, 0.8);
+}
+.header > .Batman {
+  height: 40px;
+  width: 100px;
+  border: 0.7px solid rgb(218, 218, 218);
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.18s ease-in;
+}
+.header > .Batman:hover {
+  cursor: pointer;
+  background-color: rgba(203, 213, 56, 0.8);
+}
+.header > .Thor {
+  height: 40px;
+  width: 100px;
+  border: 0.7px solid rgb(218, 218, 218);
+  border-radius: 10px;
+  background-color: rgb(45, 31, 31);
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.18s ease-in;
+}
+.header > .Thor:hover {
+  cursor: pointer;
+  background-color: rgba(0, 81, 255, 0.8);
+}
+.header > .Aquaman {
+  height: 40px;
+  width: 100px;
+  border: 0.7px solid rgb(218, 218, 218);
+  border-radius: 10px;
+  background-color: rgb(6, 188, 205);
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.18s ease-in;
+}
+.header > .Aquaman:hover {
+  cursor: pointer;
+  background-color: rgba(0, 81, 255, 0.8);
+}
+.header > .clear {
+  height: 40px;
+  width: 100px;
+  border: 0.7px solid rgb(218, 218, 218);
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.18s ease-in;
+  margin-left: 50px;
+}
+.content {
+  /* width: 100%; */
+  /* border: 1px solid white; */
+  display: flex;
+  /* height: 600px; */
+  flex-direction: row;
+  margin-top: 20px;
+
+  color: white;
+}
+.information {
+  max-width: fit-content;
+  /* height: 100%; */
+  /* border: 1px solid white; */
+  padding: 10px;
+  /* margin-left: 50px; */
+  line-height: 20px;
+}
+.information > div > h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+}
+.information > div > h3 {
+  margin-left: 30px;
+}
+.information > div {
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.information > div span {
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+.information > div p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  margin-left: 70px;
+  color: rgb(255, 255, 255);
+  line-height: 35px;
+}
+.information > h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.image {
+  /* width: 50%; */
+  /* height: 100%; */
+  /* border: 1px solid white; */
+  padding: 20px;
+  /* margin-right: 50px; */
+}
+.image > img {
+  max-width: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+}
